@@ -3,7 +3,7 @@
 hp = 2;
 flash = 0;
 path = pPath1;
-pathbegin = path;
+//pathbegin = path;
 
 if (instance_exists(oController1)) {
 	path_start(oController1.path,5,path_action_stop,false);

@@ -9,18 +9,18 @@ switch (currentWave) {
 			path = pPath11;
 			startx = room_width;
 			starty = 0;
-			//timeline_index = tLvl1Wave1;
-			//timeline_running = true;
+			timeline_index = tLvl1Wave1;
+			timeline_running = true;
 			
-			with (instance_create_layer(0, 0, "Enemies", oWorker)) {
-				subject = other.id;
-				path = pPath11;
-				startx = room_width;
-				starty = 0;
-				timeline_index = tLvl1Wave1;
-				timeline_running = true;
-				timeline_position =  0;
-			}
+			//with (instance_create_layer(0, 0, "Enemies", oWorker)) {
+			//	subject = other.id;
+			//	path = pPath11;
+			//	startx = room_width;
+			//	starty = 0;
+			//	timeline_index = tLvl1Wave1;
+			//	timeline_running = true;
+			//	timeline_position =  0;
+			//}
 			
 			//with (instance_create_layer(0, 0, "Enemies", oWorker)) {
 			//	subject = other.id;
@@ -43,6 +43,17 @@ switch (currentWave) {
 			starty = 0;
 			timeline_index = tLvl1Wave1;
 			timeline_running = true;
+			
+			//with (instance_create_layer(0, 0, "Enemies", oWorker)) {
+			//	subject = other.id;
+			//	path = pPath1;
+			//	startx = 0;
+			//	starty = 0;
+			//	timeline_index = tLvl1Wave1;
+			//	timeline_running = true;
+			//	timeline_position =  0;
+			//}
+			start = false;
 		}
 	break;
 	
