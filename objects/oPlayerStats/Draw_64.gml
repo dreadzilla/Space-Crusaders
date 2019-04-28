@@ -3,13 +3,20 @@
 if (room == rTitle) {
 	draw_set_halign(fa_center);
 	draw_set_font(fTitle);
-	draw_text_color(room_width/2 + 1, (room_height/3) + 1, "Space Crusader", c_white, c_white, c_white, c_white, 1);
-	draw_text_color(room_width/2, (room_height/3), "Space Crusader", c_red, c_red, c_red, c_red, 1);
+	draw_text_color(room_width/2 + 1, (room_height/3) + 1, "Space Crusader", c_black, c_black, c_black, c_black, 1);
+	draw_text_color(room_width/2, (room_height/3), "Space Crusader", c_white, c_white, c_white, c_white, 1);
+	
 	draw_set_font(fStart);
+	draw_text_color(room_width/2 + 1, room_height - (room_height/2) + 1, "A, S, D, W to steer and Space to shoot.", c_black, c_black, c_black, c_black, 1);
+	draw_text_color(room_width/2, room_height - (room_height/2), "A, S, D, W to steer and Space to shoot.", c_white, c_white, c_white, c_white, 1);
+	
+	draw_set_font(fStart);
+	draw_text_color(room_width/2 + 1, room_height - (room_height/2.5) + 1, "Buy upgrades by sacrificing life using T.", c_black, c_black, c_black, c_black, 1);
+	draw_text_color(room_width/2, room_height - (room_height/2.5), "Buy upgrades by sacrificing life using T.", c_white, c_white, c_white, c_white, 1);
 		
 	draw_set_font(fStart);
-	draw_text_color(room_width/2 + 1, room_height - (room_height/2) + 1, "Press space to play", c_white, c_white, c_white, c_white, 1);
-	draw_text_color(room_width/2, room_height - (room_height/2), "Press space to play", c_red, c_red, c_red, c_red, 1);
+	draw_text_color(room_width/2 + 1, room_height - (room_height/4) + 1, "Press space to play", c_black, c_black, c_black, c_black, 1);
+	draw_text_color(room_width/2, room_height - (room_height/4), "Press space to play", c_white, c_white, c_white, c_white, 1);
 
 }
 

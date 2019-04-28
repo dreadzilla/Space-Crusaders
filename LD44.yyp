@@ -39,6 +39,14 @@
             }
         },
         {
+            "Key": "02e69294-208b-4489-ac22-157324cb3da4",
+            "Value": {
+                "id": "57d4aa03-36cf-4bf5-9e13-5214500ed2bd",
+                "resourcePath": "sprites\\sprite14\\sprite14.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "04f09567-7f71-499d-a900-da36c1eb1091",
             "Value": {
                 "id": "dc52cc14-7d56-41f2-8597-845ace1ba417",
@@ -76,6 +84,14 @@
                 "id": "3f82288e-d7be-4591-8998-adda1d9b5c19",
                 "resourcePath": "sprites\\sTestPlayer\\sTestPlayer.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "17974240-64de-4dd8-b646-35018ceeaa71",
+            "Value": {
+                "id": "a0158f46-9184-451e-95be-d3b682434ea0",
+                "resourcePath": "sounds\\sEnemylaser\\sEnemylaser.yy",
+                "resourceType": "GMSound"
             }
         },
         {
@@ -188,6 +204,14 @@
                 "id": "cd2a07d2-ddf4-49c6-8d09-c981713b5c49",
                 "resourcePath": "objects\\oBullet2\\oBullet2.yy",
                 "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "4fee7874-4916-4199-b3ff-b0ec3494c7e7",
+            "Value": {
+                "id": "5dbd27f9-26b6-4e9d-add2-70b29a5173aa",
+                "resourcePath": "sounds\\aNewwave\\aNewwave.yy",
+                "resourceType": "GMSound"
             }
         },
         {
@@ -423,6 +447,14 @@
             }
         },
         {
+            "Key": "9c102df7-111f-4f5f-acf5-e524b5eb3246",
+            "Value": {
+                "id": "a50f48a2-33da-4995-b6bd-bf5bf98b5372",
+                "resourcePath": "objects\\oBoss\\oBoss.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "9e7b8ff0-5593-4a9b-903a-f86e4ab661b5",
             "Value": {
                 "id": "b683b0fc-0dbd-4ea5-a8c7-52fd16de6bd1",
@@ -436,6 +468,14 @@
                 "id": "49ee8fcd-23d8-4ff2-ba90-3e2b6559e1a2",
                 "resourcePath": "options\\amazonfire\\options_amazonfire.yy",
                 "resourceType": "GMAmazonFireOptions"
+            }
+        },
+        {
+            "Key": "acc9a2ab-d331-4e8d-9749-7fbcd79fe557",
+            "Value": {
+                "id": "ad51dee7-93ea-4f34-ab7a-3e767405eb52",
+                "resourcePath": "sounds\\aBossExplode\\aBossExplode.yy",
+                "resourceType": "GMSound"
             }
         },
         {
@@ -463,11 +503,27 @@
             }
         },
         {
+            "Key": "c311ee5f-4fa4-4387-8085-a10cd8b84650",
+            "Value": {
+                "id": "48fbaa7e-d5b3-43f4-b70e-7f1310d675e0",
+                "resourcePath": "sounds\\sPowerup\\sPowerup.yy",
+                "resourceType": "GMSound"
+            }
+        },
+        {
             "Key": "c8a24ede-e33d-4386-9269-3417d073e71e",
             "Value": {
                 "id": "7d8c5dfe-834a-4fc6-81c3-a4d8975343e0",
                 "resourcePath": "views\\c8a24ede-e33d-4386-9269-3417d073e71e.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "cc8ab320-060e-4cb4-84ca-446fcabb66df",
+            "Value": {
+                "id": "7cc7306f-e5db-4177-8d18-eb24ea0a930a",
+                "resourcePath": "sprites\\sprite13\\sprite13.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -500,6 +556,14 @@
                 "id": "e76f90ff-9407-40e7-83fe-ff9f86a23152",
                 "resourcePath": "sounds\\aShot\\aShot.yy",
                 "resourceType": "GMSound"
+            }
+        },
+        {
+            "Key": "dc6daff8-d0d3-4402-898c-d6aa094c740d",
+            "Value": {
+                "id": "bb3c2fbb-239f-4afe-8526-b847adb50e62",
+                "resourcePath": "objects\\oDamage\\oDamage.yy",
+                "resourceType": "GMObject"
             }
         },
         {

@@ -7,6 +7,7 @@ path = pPath1;
 //pathbegin = path;
 firerate = random_range(60,180);
 alarm[0] = firerate;
+//endstep = true;
 
 if (instance_exists(oController1)) {
 	path_start(oController1.path,5,path_action_stop,false);

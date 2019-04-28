@@ -5,7 +5,8 @@ path = pPath1;
 pathdouble = false;
 waves = 4;   
 currentWave = waves;
-enemies = 3;
+//currentWave = waves;
+//enemies = 3;
 
 // Start positions of ship
 startx = 0;

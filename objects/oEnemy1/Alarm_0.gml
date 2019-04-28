@@ -11,5 +11,6 @@ if (_fireit) {
 	_laser.speed = 3;
 	//_laser.image_angle = _direction;
 	_laser.direction = _direction;
+	audio_play_sound(sEnemylaser,1,0);
 }
 alarm[0] = firerate;

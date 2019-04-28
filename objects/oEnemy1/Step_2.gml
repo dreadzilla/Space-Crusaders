@@ -9,3 +9,7 @@
 //	show_debug_message("path:" + path_get_name(path));
 //}
 
+//if (endstep) {
+//	path_start(path,5,path_action_stop,false);
+//	endstep = false;
+//}

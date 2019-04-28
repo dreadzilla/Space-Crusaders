@@ -50,7 +50,7 @@ switch (state) {
 	//x += xspd;
 	//y += yspd;
 	
-	switch (wepstate) {
+	switch (weaponcurrent) {
 		case (1):
 			fire_delay -= 1;
 			
@@ -107,19 +107,48 @@ switch (state) {
 					speed = 10;
 					direction = 105;
 					//image_angle = direction;
-					audio_play_sound(aShot,1,0);
+					//audio_play_sound(aShot,1,0);
 				}
 				with (instance_create_layer(x+10,y-16,"Bullets",oBullet)) {
 					speed = 10;
 					direction = 75;
 					//image_angle = direction;
-					audio_play_sound(aShot,1,0);
+					//audio_play_sound(aShot,1,0);
 				}
 			}
-			
 		break;
 	}
 	
+	
+	break;
+#endregion
+#region
+	case player.hurt:
+		if (oPlayerStats.hp <= 0) {
+			state = player.death;
+		} else {
+			image_blend = c_white;
+			state = player.moving;
+		}
+	
+	break;
+#endregion
+#region
+	case player.death:
+	
+		if (alarm[0] < 0) {
+			alarm[0] = room_speed*5;
+		}
+		//with(oPlayerStats) {
+		//	hp = max_hp;
+		//	playerscore = 0;
+		//}
+		
+		break;
+	break;
+#endregion
+#region
+	case player.won:
 	
 	break;
 #endregion

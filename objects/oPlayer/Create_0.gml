@@ -7,24 +7,19 @@ acc = 1; // Acceleration
 hascontrol = true;
 flash = 0;
 
+
 fire_delay = 0;
 
 enum player {
 	moving,
 	noop,
 	hurt,
-	death
+	death,
+	won
 }
 
 state = player.moving;
 
 // Weapon states
-
-enum weapon {
-	first,
-	second,
-	third,
-	fourth
-}
-
-wepstate = weapon.first;
+weaponcurrent = 1;
+weaponmax = 4;
