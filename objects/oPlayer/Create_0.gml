@@ -5,6 +5,7 @@ xspd = 0;
 yspd = 0;
 acc = 1; // Acceleration
 hascontrol = true;
+flash = 0;
 
 fire_delay = 0;
 
@@ -26,4 +27,4 @@ enum weapon {
 	fourth
 }
 
-wepstate = weapon.third;
+wepstate = weapon.first;

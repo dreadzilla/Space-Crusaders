@@ -10,7 +10,6 @@ if (hascontrol) {
 	up = keyboard_check(ord("W"));
 	down = keyboard_check(ord("S"));
 	fire = keyboard_check(vk_space);
-	up_release = keyboard_check_released(vk_space);
 #endregion
 }
 
@@ -52,7 +51,7 @@ switch (state) {
 	//y += yspd;
 	
 	switch (wepstate) {
-		case weapon.first:
+		case (1):
 			fire_delay -= 1;
 			
 			if (fire and fire_delay < 0) {
@@ -66,7 +65,7 @@ switch (state) {
 			}
 		
 		break;
-		case weapon.second:
+		case (2):
 			fire_delay -=1;
 			if (fire and fire_delay < 0) {
 				fire_delay = 10;
@@ -80,7 +79,7 @@ switch (state) {
 			
 		break;
 		
-		case weapon.third:
+		case (3):
 			fire_delay -=1;
 			if (fire and fire_delay < 0) {
 				fire_delay = 10;
@@ -94,7 +93,7 @@ switch (state) {
 			
 		break;
 		
-		case weapon.fourth:
+		case (4):
 			fire_delay -=1;
 			if (fire and fire_delay < 0) {
 				fire_delay = 10;
