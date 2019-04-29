@@ -10,5 +10,5 @@ with (other) {
 		x = xprevious;
 	}
 }
-
+audio_play_sound(aHithurt,1,0);
 instance_destroy();

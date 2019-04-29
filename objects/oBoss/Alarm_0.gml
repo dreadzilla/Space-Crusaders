@@ -9,8 +9,9 @@ repeat(10) {
 		direction = _direction;
 		_direction += 18; 
 		//image_angle = direction;
-		//audio_play_sound(aShot,1,0);
+		audio_play_sound(aShot,1,0);
 	}
 }
+audio_play_sound(aShot,1,0);
 
 alarm[0] = firerate;

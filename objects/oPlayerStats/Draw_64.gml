@@ -3,8 +3,8 @@
 if (room == rTitle) {
 	draw_set_halign(fa_center);
 	draw_set_font(fTitle);
-	draw_text_color(room_width/2 + 1, (room_height/3) + 1, "Space Crusader", c_black, c_black, c_black, c_black, 1);
-	draw_text_color(room_width/2, (room_height/3), "Space Crusader", c_white, c_white, c_white, c_white, 1);
+	draw_text_color(room_width/2 + 1, (room_height/4) + 1, "Space Crusader", c_black, c_black, c_black, c_black, 1);
+	draw_text_color(room_width/2, (room_height/4), "Space Crusader", c_white, c_white, c_white, c_white, 1);
 	
 	draw_set_font(fStart);
 	draw_text_color(room_width/2 + 1, room_height - (room_height/2) + 1, "A, S, D, W to steer and Space to shoot.", c_black, c_black, c_black, c_black, 1);

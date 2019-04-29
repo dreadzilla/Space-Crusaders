@@ -1,8 +1,8 @@
 {
-    "id": "d367db83-d00f-49e8-bb93-b5342f849dc4",
+    "id": "ada3a59e-d15b-45be-96f3-009a404a5471",
     "modelName": "GMSound",
     "mvc": "1.0",
-    "name": "aShot",
+    "name": "a1up",
     "audioGroupGuid": "7b2c4976-1e09-44e5-8256-c527145e03bb",
     "bitDepth": 1,
     "bitRate": 128,
@@ -10,5 +10,5 @@
     "preload": false,
     "sampleRate": 44100,
     "type": 0,
-    "volume": 0.42
+    "volume": 1
 }

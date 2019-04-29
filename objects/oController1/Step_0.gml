@@ -1,5 +1,4 @@
-/// @description Insert description here
-// You can write your code in this editor
+/// @description Control enemy waves
 
 switch (currentWave) {
 	
@@ -47,6 +46,10 @@ switch (currentWave) {
 	
 	case(0): // Boss time!
 		if (start) {
+			if (oPlayerStats.playerscore < 2000) { // Need 2000 points to reach boss
+				currentWave = waves;
+				break;
+			}
 			startx = 0;
 			starty = 0;
 			instance_create_layer(startx,starty,"Enemies",oBoss);

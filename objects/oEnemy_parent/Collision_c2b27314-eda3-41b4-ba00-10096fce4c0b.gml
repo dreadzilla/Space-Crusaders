@@ -1,5 +1,4 @@
-/// @description Shoot player
-instance_destroy();
+/// @description Player hit enemy
 
 with (other) {
 	flash = 3;
@@ -9,4 +8,3 @@ with (other) {
 	x = xprevious;	
 	audio_play_sound(aHithurt,1,0);
 }
-

@@ -183,6 +183,14 @@
             }
         },
         {
+            "Key": "42cc7212-c2ae-4172-9143-8315f1672896",
+            "Value": {
+                "id": "69ed819d-3d1a-42c9-9fe4-5f0b4e849ef4",
+                "resourcePath": "sounds\\aMusic\\aMusic.yy",
+                "resourceType": "GMSound"
+            }
+        },
+        {
             "Key": "4319908c-5b9f-4ad0-86fc-44c35e460fd8",
             "Value": {
                 "id": "92db7921-c34b-421d-b650-b583a76f1c12",
@@ -335,6 +343,14 @@
             }
         },
         {
+            "Key": "79019b7f-6ee4-4bc8-9cfc-588eb14804d7",
+            "Value": {
+                "id": "dbcc4709-fae7-4812-b626-ffebafdfc0e2",
+                "resourcePath": "sounds\\aHithurt\\aHithurt.yy",
+                "resourceType": "GMSound"
+            }
+        },
+        {
             "Key": "7c4ba9a5-2715-46a8-8bae-0ab20f7a236a",
             "Value": {
                 "id": "1d489ad8-a6ef-4aed-9ce4-227ea4b46bc5",
@@ -348,6 +364,14 @@
                 "id": "9babcc46-6989-4d91-bfe1-108c1f3f2571",
                 "resourcePath": "objects\\oEnemy_parent\\oEnemy_parent.yy",
                 "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "81fcb1ec-5d85-437e-b937-af4493eea4b8",
+            "Value": {
+                "id": "0cb81ee1-88bc-49cb-ad43-1919d0edb96a",
+                "resourcePath": "sounds\\aEnemyexplode\\aEnemyexplode.yy",
+                "resourceType": "GMSound"
             }
         },
         {
@@ -487,6 +511,14 @@
             }
         },
         {
+            "Key": "ada3a59e-d15b-45be-96f3-009a404a5471",
+            "Value": {
+                "id": "254b0a2b-bed7-4e10-9589-eca1b7536392",
+                "resourcePath": "sounds\\a1up\\a1up.yy",
+                "resourceType": "GMSound"
+            }
+        },
+        {
             "Key": "ba41f4b4-d3c5-4dc5-a24e-f575fed80ea6",
             "Value": {
                 "id": "05b959ce-4592-4c2a-bb7e-a30ac1b6ff73",
@@ -612,6 +644,14 @@
                 "id": "d04677c0-b0b3-4b77-afbb-5bfb42ef250f",
                 "resourcePath": "views\\f5e3e580-ace6-48f9-9e7d-f26a20d8e6fc.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "ff2f7019-7e81-4deb-9e8f-3c3d2717ca48",
+            "Value": {
+                "id": "d3d7129c-f09c-4d19-ae03-9965b8d0d437",
+                "resourcePath": "objects\\oPowerup\\oPowerup.yy",
+                "resourceType": "GMObject"
             }
         }
     ],

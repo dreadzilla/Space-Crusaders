@@ -124,8 +124,10 @@ switch (state) {
 #endregion
 #region
 	case player.hurt:
+		//show_debug_message("player_hurt");
 		if (oPlayerStats.hp <= 0) {
 			state = player.death;
+			audio_play_sound(aBossExplode,1,0);
 		} else {
 			image_blend = c_white;
 			state = player.moving;
@@ -135,16 +137,11 @@ switch (state) {
 #endregion
 #region
 	case player.death:
-	
+		image_alpha = 0;
 		if (alarm[0] < 0) {
 			alarm[0] = room_speed*5;
 		}
-		//with(oPlayerStats) {
-		//	hp = max_hp;
-		//	playerscore = 0;
-		//}
 		
-		break;
 	break;
 #endregion
 #region
